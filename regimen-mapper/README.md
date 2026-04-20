@@ -1,8 +1,8 @@
 # Regimen Mapper
-Turn messy free-text chemotherapy regimen data into tidy lists of **NCI Preferred Drug Names**.
+Turn messy free-text chemotherapy regimen data into tidy lists of NCI Preferred Drug Names.
 
 ## Description
-Designed to work with **OncDRS** ```TREATMENT_PLAN``` tables (or similar), this tool parses free-text chemotherapy plan entries and maps them to standardized terms using the NCI Thesaurus.
+Designed to work with OncDRS ```TREATMENT_PLAN``` tables (or similar), this tool parses free-text chemotherapy plan entries and maps them to standardized terms using the NCI Thesaurus.
 
 It supports:
 
@@ -12,11 +12,11 @@ It supports:
 
 - Fuzzy matching
 
-- Token-based pre-processing for speed and accuracy :rocket:
+- Token-based pre-processing for speed and accuracy 
 
 - Batch processing large datasets
 
-## **Requirements**
+## Requirements
 These are lightweight, well-supported libraries:
 
 - ```pandas``` – data loading and wrangling
